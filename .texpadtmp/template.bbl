@@ -219,4 +219,18 @@ C.~Blum, Lecture Notes in Computer Science (including subseries Lecture Notes
   LNCS}(6), 1 (2012).
 \newblock \doi{10.1007/978-3-642-33860-1\_1}
 
+\bibitem{Vetoio2011}
+V.~Vetoio, Language  (2011)
+
+\bibitem{Smith2002}
+C.~Smith, L.~Williams, Cmg-Conference- \textbf{2}, 797 (2002).
+\newblock
+  \urlprefix\url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.100.6968{\&}rep=rep1{\&}type=pdf}
+
+\bibitem{Smith2003}
+C.U. Smith, L.G. Williams, Computer Measurement Group Conference pp. 717--725
+  (2003).
+\newblock
+  \urlprefix\url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.123.4517{\&}rep=rep1{\&}type=pdf}
+
 \end{thebibliography}

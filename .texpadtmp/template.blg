@@ -25,45 +25,45 @@ Warning--missing publisher in Tobergte2013
 Warning--can't use both volume and number fields in Talbi2012
 Warning--missing publisher in Talbi2012
 Warning--there's a number but no volume in Greenwald2003
-You've used 47 entries,
+You've used 50 entries,
             2812 wiz_defined-function locations,
-            907 strings with 13572 characters,
-and the built_in function-call counts, 19225 in all, are:
-= -- 1745
-> -- 379
-< -- 17
-+ -- 204
-- -- 110
-* -- 926
-:= -- 1902
-add.period$ -- 33
-call.type$ -- 47
+            927 strings with 14274 characters,
+and the built_in function-call counts, 20664 in all, are:
+= -- 1907
+> -- 397
+< -- 18
++ -- 218
+- -- 115
+* -- 982
+:= -- 2031
+add.period$ -- 35
+call.type$ -- 50
 change.case$ -- 5
 chr.to.int$ -- 6
-cite$ -- 65
-duplicate$ -- 2298
-empty$ -- 1735
-format.name$ -- 141
-if$ -- 4282
+cite$ -- 68
+duplicate$ -- 2476
+empty$ -- 1844
+format.name$ -- 148
+if$ -- 4600
 int.to.chr$ -- 0
-int.to.str$ -- 47
-missing$ -- 410
-newline$ -- 182
-num.names$ -- 47
-pop$ -- 932
+int.to.str$ -- 50
+missing$ -- 433
+newline$ -- 193
+num.names$ -- 50
+pop$ -- 1005
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 855
+skip$ -- 937
 stack$ -- 0
-substring$ -- 608
-swap$ -- 1633
-text.length$ -- 15
+substring$ -- 674
+swap$ -- 1767
+text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 18
-while$ -- 102
-width$ -- 49
-write$ -- 431
+while$ -- 110
+width$ -- 52
+write$ -- 458
 (There was 1 error message)
