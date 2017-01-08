@@ -1,0 +1,69 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: template.aux
+The style file: ../spphys.bst
+Database file #1: ../bibfile.bib
+Repeated entry---line 650 of file ../bibfile.bib
+ : @inproceedings{Gois2016
+ :                        ,
+I'm skipping whatever remains of this entry
+Warning--missing school in Jiang2010
+Warning--empty journal in Sullivan
+Warning--empty year in Sullivan
+Warning--empty journal in Garousi2006
+Warning--there's a number but no volume in Garousi2006
+Warning--empty year in DiAlesio2014
+Warning--empty journal in Canfora
+Warning--empty year in Canfora
+Warning--empty journal in Tracey1998
+Warning--there's a number but no volume in Pohlheim2005
+Warning--can't use both volume and number fields in Talbi2013
+Warning--missing publisher in Talbi2013
+Warning--missing publisher in Jaziri2008
+Warning--can't use both volume and number fields in Tobergte2013
+Warning--missing publisher in Tobergte2013
+Warning--can't use both volume and number fields in Talbi2012
+Warning--missing publisher in Talbi2012
+Warning--there's a number but no volume in Greenwald2003
+You've used 47 entries,
+            2812 wiz_defined-function locations,
+            907 strings with 13572 characters,
+and the built_in function-call counts, 19225 in all, are:
+= -- 1745
+> -- 379
+< -- 17
++ -- 204
+- -- 110
+* -- 926
+:= -- 1902
+add.period$ -- 33
+call.type$ -- 47
+change.case$ -- 5
+chr.to.int$ -- 6
+cite$ -- 65
+duplicate$ -- 2298
+empty$ -- 1735
+format.name$ -- 141
+if$ -- 4282
+int.to.chr$ -- 0
+int.to.str$ -- 47
+missing$ -- 410
+newline$ -- 182
+num.names$ -- 47
+pop$ -- 932
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 855
+stack$ -- 0
+substring$ -- 608
+swap$ -- 1633
+text.length$ -- 15
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 18
+while$ -- 102
+width$ -- 49
+write$ -- 431
+(There was 1 error message)

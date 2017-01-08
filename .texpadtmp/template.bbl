@@ -1,0 +1,222 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI \discretionary{}{}{}#1}\else
+  \providecommand{\doi}{DOI \discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem{Jiang2010}
+Z.~Jiang, {Automated analysis of load testing results}.
+\newblock Ph.D. thesis (2010).
+\newblock \urlprefix\url{http://dl.acm.org/citation.cfm?id=1831726}
+
+\bibitem{Molyneaux2009}
+I.~Molyneaux, \emph{{The Art of Application Performance Testing: Help for
+  Programmers and Quality Assurance}}, 1st edn. ("O'Reilly Media, Inc.", 2009)
+
+\bibitem{Draheim2006b}
+D.~Draheim, J.~Grundy, J.~Hosking, C.~Lutteroth, G.~Weber, in \emph{Conference
+  on Software Maintenance and Reengineering (CSMR'06)} (2006).
+\newblock \doi{10.1109/CSMR.2006.43}
+
+\bibitem{Garousi2010}
+V.~Garousi, IEEE Transactions on Software Engineering \textbf{36}(6), 778
+  (2010).
+\newblock \doi{10.1109/TSE.2010.5}
+
+\bibitem{Babbar2011}
+C.~Babbar, N.~Bajpai, D.~Sarmah, International Journal of Technology  (2011)
+
+\bibitem{Afzal2009a}
+W.~Afzal, R.~Torkar, R.~Feldt, Information and Software Technology
+  \textbf{51}(6), 957 (2009).
+\newblock \doi{10.1016/j.infsof.2008.12.005}
+
+\bibitem{Sullivan}
+M.O. Sullivan, S.~V\"{o}ssner, J.~Wegener, D.b. Ag,  pp. 1--20
+
+\bibitem{Gois2016}
+N.~Gois, P.~Porfirio, A.~Coelho, T.~Barbosa, in \emph{Proceedings of the 2016
+  Latin American Computing Conference (CLEI)} (2016), pp. 718--728
+
+\bibitem{Harman2010}
+M.~Harman, P.~McMinn, IEEE Transactions on Software Engineering \textbf{36}(2),
+  226 (2010).
+\newblock \doi{10.1109/TSE.2009.71}
+
+\bibitem{Alba2008}
+E.~Alba, F.~Chicano, Computers and Operations Research \textbf{35}(10), 3161
+  (2008).
+\newblock \doi{10.1016/j.cor.2007.01.016}
+
+\bibitem{Baars2011}
+A.I. Baars, K.~Lakhotia, T.E.J. Vos, J.~Wegener, Federated Conference on
+  Computer Science and Information Systems (FedCSIS 2011) pp. 917--923 (2011).
+\newblock
+  \urlprefix\url{http://ieeexplore.ieee.org/stamp/stamp.jsp?tp={\&}arnumber=6078178}
+
+\bibitem{McMinn2004}
+P.~McMinn, R.~Court, S.~Testing, P.~Street, Software testing, Verification and
+  reliability \textbf{14}, 1 (2004).
+\newblock \doi{10.1002/stvr.294}
+
+\bibitem{Garousi2006}
+V.~Garousi,  (August) (2006)
+
+\bibitem{DiAlesio2013}
+S.~{Di Alesio}, S.~Nejati, L.~Briand, A.~Gotlieb, IEEE Xplore pp. 158--167
+  (2013).
+\newblock \doi{10.1109/ISSRE.2013.6698915}
+
+\bibitem{DiAlesio2014}
+S.~{Di Alesio}, S.~Nejati, L.~Briand, A.~Gotlieb, Principles and Practice of
+  Constraint Programming pp. 813--830.
+\newblock \doi{10.1007/978-3-319-10428-7{\_}58}
+
+\bibitem{Alesio2015}
+S.D.I. Alesio, L.C. Briand, S.~Nejati, A.~Gotlieb, ACM Transactions on Software
+  Engineering and Methodology \textbf{25}(1) (2015)
+
+\bibitem{tracey2000search}
+N.J. Tracey, A search-based automated test-data generation framework for
+  safety-critical software.
+\newblock Ph.D. thesis, Citeseer (2000)
+
+\bibitem{Alander}
+J.T.J. Alander, T.~Mantere, P.~Turunen, in \emph{Neural Nets and Genetic
+  Algorithms} (1998)
+
+\bibitem{Wegener1997}
+J.~Wegener, H.~Sthamer, B.F. Jones, D.E. Eyres, Software Quality Journal
+  \textbf{6}(2), 127 (1997).
+\newblock \doi{10.1023/A:1018551716639}.
+\newblock
+  \urlprefix\url{http://www.springerlink.com/index/uh26067rt3516765.pdf}
+
+\bibitem{J.WegenerK.GrimmM.GrochtmannH.Sthamer1996}
+B.J. {J. Wegener, K. Grimm, M. Grochtmann, H. Sthamer}, EuroSTAR'96:
+  Proceedings of the Fourth International Conference on Software Testing
+  Analysis and Review  (1996)
+
+\bibitem{Briand2005}
+L.C. Briand, Y.~Labiche, M.~Shousha, Proceedings of the 2005 conference on
+  Genetic and evolutionary computation - GECCO '05 p. 1021 (2005).
+\newblock \doi{10.1145/1068009.1068183}
+
+\bibitem{Canfora}
+G.~Canfora, M.D. Penta, R.~Esposito, M.L. Villani,
+
+\bibitem{Wegener1998}
+J.~Wegener, M.~Grochtmann, Real-Time Systems \textbf{15}(3), 275 (1998).
+\newblock \doi{Doi 10.1023/A:1008096431840}
+
+\bibitem{Mueller1998}
+F.~Mueller, J.~Wegener, Proceedings. Fourth IEEE Real-Time Technology and
+  Applications Symposium (Cat. No.98TB100245)  (1998).
+\newblock \doi{10.1109/RTTAS.1998.683198}
+
+\bibitem{Puschner1998}
+P.~Puschner, R.~Nossal, Proceedings 19th IEEE Real-Time Systems Symposium (Cat.
+  No.98CB36279)  (1998).
+\newblock \doi{10.1109/REAL.1998.739738}
+
+\bibitem{Stations}
+H.~{Wegener, Joachim and Pitschinetz, Roman and Sthamer}, Proceedings of the
+  1st International Workshop on Automated Program Analysis, Testing and
+  Verification (WAPATV'00)  (2000)
+
+\bibitem{Gross2000}
+H.~Gross, B.F. Jones, D.E. Eyres, Software, IEE Proceedings- \textbf{147}(2),
+  25 (2000).
+\newblock \doi{10.1049/ip-sen}
+
+\bibitem{Penta2007}
+M.D. Penta, G.~Canfora, G.~Esposito, in \emph{Proceedings of the 9th annual
+  conference on Genetic and evolutionary computation} (2007), pp. 1090--1097
+
+\bibitem{Garousi2008}
+V.~Garousi, Proceedings of the 10th annual conference on Genetic and
+  evolutionary computation - GECCO '08 p. 1743 (2008).
+\newblock \doi{10.1145/1389095.1389433}
+
+\bibitem{Tracey1998}
+N.J. Tracey, J.a. Clark, K.C. Mander,   (1998)
+
+\bibitem{Pohlheim2005}
+H.~Pohlheim, M.~Conrad, A.~Griep, Analysis (724), 804 (2005).
+\newblock \doi{10.4271/2005-01-0750}
+
+\bibitem{shousha2003performance}
+M.~Shousha, Performance stress testing of real-time systems using genetic
+  algorithms.
+\newblock Ph.D. thesis, Carleton University Ottawa (2003)
+
+\bibitem{raidl2010metaheuristic}
+G.R. Raidl, J.~Puchinger, C.~Blum, in \emph{Handbook of metaheuristics}
+  (Springer, 2010), pp. 469--496
+
+\bibitem{Blum2003}
+C.~Blum, A.~Roli, ACM Computing Surveys \textbf{35}(3), 189 (2003).
+\newblock \doi{10.1007/s10479-005-3971-7}
+
+\bibitem{Talbi2013}
+E.G. Talbi, \emph{{Metaheuristics: From Design to Implementation}}, vol.~53
+  (2013).
+\newblock \doi{10.1017/CBO9781107415324.004}
+
+\bibitem{Jaziri2008}
+W.~Jaziri, \emph{{Local Search Techniques: Focus on Tabu Search}} (2008)
+
+\bibitem{Glover1986}
+F.~Glover, R.~Mart{\'{i}}, Tabu Search pp. 1--16 (1986)
+
+\bibitem{Tobergte2013}
+C.~{Raidl, Gunther R and Puchinger, Jakob and Blum}, \emph{{Hybrid
+  Metaheuristics An Emerging Approach}}, vol.~53 (2013).
+\newblock \doi{10.1017/CBO9781107415324.004}
+
+\bibitem{talbi2009metaheuristics}
+E.G. Talbi, \emph{Metaheuristics: from design to implementation}, vol.~74 (John
+  Wiley \& Sons, 2009)
+
+\bibitem{hong2000simultaneously}
+T.P. Hong, H.S. Wang, W.C. Chen, Journal of heuristics \textbf{6}(4), 439
+  (2000)
+
+\bibitem{Talbi2012}
+E.G. Talbi, \emph{{Hybrid Metaheuristics}}, vol.~2 (2012).
+\newblock \doi{10.1007/978-3-642-30671-6}
+
+\bibitem{Raidl2006}
+R.~Raidl, Hybrid Metaheuristics (LNCS 4030) pp. 1--12 (2006).
+\newblock \doi{10.1007/11890584{\_}1}
+
+\bibitem{Puchinger2005}
+J.~Puchinger, R.~Raidl, Artificial Intelligence and Knowledge Engineering
+  Applications a Bioinspired Approach \textbf{3562}, 41 (2005).
+\newblock \doi{10.1007/11499305\_5}
+
+\bibitem{Sutton2012}
+R.S. Sutton, A.G. Barto, Learning \textbf{3}(9), 322 (2012).
+\newblock \doi{10.1109/MED.2013.6608833}.
+\newblock
+  \urlprefix\url{https://books.google.com/books?id=CAFR6IBF4xYC{\&}pgis=1$\backslash$nhttp://incompleteideas.net/sutton/book/the-book.html$\backslash$nhttps://www.dropbox.com/s/f4tnuhipchpkgoj/book2012.pdf}
+
+\bibitem{Szepesvari2010}
+C.~Szepesv{\'{a}}ri, G.~Bartok, Synthesis Lectures on Artificial Intelligence
+  and Machine Learning \textbf{4}(x), 1 (2010).
+\newblock \doi{10.2200/S00268ED1V01Y201005AIM009}
+
+\bibitem{Greenwald2003}
+A.~Greenwald, K.~Hall, R.~Serrano, Icml (3), 84 (2003).
+\newblock
+  \urlprefix\url{http://www.aaai.org/Papers/Symposia/Spring/2002/SS-02-02/SS02-02-012.pdf}
+
+\bibitem{Blum2012}
+C.~Blum, Lecture Notes in Computer Science (including subseries Lecture Notes
+  in Artificial Intelligence and Lecture Notes in Bioinformatics) \textbf{7505
+  LNCS}(6), 1 (2012).
+\newblock \doi{10.1007/978-3-642-33860-1\_1}
+
+\end{thebibliography}
