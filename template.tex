@@ -171,7 +171,7 @@ innerrightmargin=6pt,innertopmargin=6pt,innerbottommargin=6pt]{mybox}
 \maketitle
 
 \begin{abstract}
-Some software systems must respond to thousands or millions of concurrent requests. These systems must be properly tested to ensure that they can function correctly under the expected load. A common use of stress testing is to find test scenarios that produce execution times that violate the timing constraints specified. In this context, search-based testing is seen as a promising approach for verifying timing constraints. In this thesis, We proposed  hybrid metaheuristic approach that uses genetic algorithms, simulated annealing, and tabu search algorithms in a collaborative model using Q-Learning to improve stress search-based  testing and  automation. A tool named IAdapter, a JMeter plugin used for performing search-based stress tests, was developed. Four experiments were conducted to validate the proposed approach.
+Some software systems must respond to thousands or millions of concurrent requests. These systems must be properly tested to ensure that they can function correctly under the expected load. A common use of stress testing is to find test scenarios that produce execution times that violate the timing constraints specified. In this context, search-based testing is seen as a promising approach for verifying timing constraints. In this paper, We propose an  hybrid metaheuristic approach that uses genetic algorithms, simulated annealing, and tabu search algorithms in a collaborative model using Q-Learning to improve stress search-based  testing and  automation. The main goal of the research is to find scenarios that maximize the number of users in the application with a response time below the response time service level. A tool named IAdapter, a JMeter plugin used for performing search-based stress tests, was developed. Two experiments were conducted to validate the proposed approach.
 \keywords{Search-Based Test \and Stress Testing \and Hybrid metaheuristic \and Q-Learning }
 % \PACS{PACS code1 \and PACS code2 \and more}
 % \subclass{MSC code1 \and MSC code2 \and more}
@@ -193,7 +193,7 @@ A stress test uses a set of workloads that consist of many types of usage scenar
 Search-based testing is seen as a promising approach to verifying timing constraints \cite{Afzal2009a}. A common objective of a Stress search-based test is to find  scenarios that produce execution times that violate the specified timing constraints \cite{Sullivan}. 
 
 
-This research proposes extends the Hybrid Algorithm presented by Gois et al. \cite{Gois2016} using Q-Learning reinforcement learning technique (HybridQ algorithm).  Two experiments were conducted to validate the proposed approach. The first experiment was performed on an emulated environment, and the second one was performed using an installed JPetStore application.
+This research proposes extends the Hybrid Algorithm presented by Gois et al. \cite{Gois2016} using Q-Learning reinforcement learning technique (HybridQ algorithm) to find the scenarios that maximize the number of users in the application with a response time below the response time service level.  Two experiments were conducted to validate the proposed approach. The first experiment was performed on an emulated environment, and the second one was performed using an installed JPetStore application.
 
 The remainder of the paper is organized as follows. Section 2 presents a brief introduction about search-based testing. Section 3 presents concepts about  search-based stress testing. Section 4 presents details features about metaheuristic and hybrid metaheuristic. Section 5 presents concepts about Q-Learning. Section 6 presents the proposed solution. Section 7 shows the results of two experiments performed using the HybridQ algorithm.  Conclusions and further work are presented in Section 8.
 
@@ -704,11 +704,12 @@ The proposed solution was designed to be used with independent testing teams in 
 
 \begin{equation}
 \begin{aligned}
-fit=90percentileweigth* 90percentiletime\\
-+80percentileweigth*80percentiletime\\+
-70percentileweigth*70percentiletime+\\
-maxResponseWeigth*maxResponseTime+\\
-numberOfUsersWeigth*numberOfUsers-penalty
+fit=numberOfUsersWeigth*numberOfUsers\\
+-90percentileweigth* 90percentiletime\\
+-80percentileweigth*80percentiletime\\
+-70percentileweigth*70percentiletime\\
+-maxResponseWeigth*maxResponseTime\\
+-penalty
 \end{aligned}
 \end{equation}
 
@@ -968,21 +969,11 @@ Fig. \ref{fig:mdpexperiment1} presents the markov decision process for the exper
 In the first experiment, We conclude that the metaheuristics converged to scenarios with an happy path, excluding the scenarios with antipatterns. The hybridQ and hybrid metaheuristic returned individuals with higher fitness scores. However, the Hybrid metaheuristic made twice as many requests than Tabu Search to overcome it. 
 
 \begin{figure}[h]
-\begin{minipage}{.5\textwidth}
 \centering
 \includegraphics[width=0.7\textwidth]{./images/mdpexperiment.png}
 \caption{Markov decision process of experiment with Circuitous Treasure and The Ramp antipatterns}
 \label{fig:mdpexperiment1}
-\end{minipage}
-\begin{minipage}{.5\textwidth}
-\centering
-\includegraphics[width=.9\textwidth]{./images/experiment2-7.png}
-\caption{Fitness value obtained by Search Method}
-\label{fig:fitnessbygeneration2}
-\end{minipage}
 \end{figure}
-
-
 
 \subsection{JPetStore Application Experiments}
 
@@ -1082,16 +1073,15 @@ We conclude that HybridQ found the individuals with major number of uses. The sc
 
 \section{Conclusion}
 
-IAdapter Testbed is an open-source facility that provides software tools for search based test research. The testbed tool emulates test scenarios in a controled environment using mock objects and implementing performance antipatterns.  Two experiments were conducted to validate the proposed approach. The experiments uses genetic, algorithms, tabu search, simulated annealing and an hybrid approach proposed by Gois et al. \cite{Gois2016}.
+Two experiments were conducted to validate the proposed approach. The experiments uses genetic, algorithms, tabu search, simulated annealing and an hybrid approach proposed by Gois et al. \cite{Gois2016}.
 
 The experiments ran for 17 generations. The experiments used an initial population of 4 individuals by metaheuristic. All tests in the experiment were conducted without the need of a tester, automating the execution of stress tests with the JMeter tool.
 
-In both experiments the hybrid metaheuristic returned individuals with higher fitness scores. However, the Hybrid metaheuristic made twice as many requests than Tabu Search to overcome it. The SA algorithm obtained the worst fitness values. The algorithm initially used a scenario with an antipattern and found neighbors that still using the antipatterns over the 17 generations of the experiment.
-
-In the first experiment the metaheuristics converged to scenarios with an happy path, excluding the scenarios with the use of an antipatterns. The individual with best fitness value has 64 users on Happy Scenario 2, 81 users on Happy Scenario 1 and a response time of 12 seconds. None of the best individuals has one of the antipatterns used in the experiment.
+In both experiments the HybridQ algorithm returned individuals with higher fitness scores.  In the first experiment the metaheuristics converged to scenarios with an happy path, excluding the scenarios with the use of an antipatterns. The individual with best fitness value has 64 users on Happy Scenario 2, 81 users on Happy Scenario 1 and a response time of 12 seconds. None of the best individuals has one of the antipatterns used in the experiment.
 
 
-In the second experiment,  the metaheuristics converged to scenarios with an happy path and Tower Babel antipattern, excluding the scenarios with Unbalanced Processing antipattern. The individual with best fitness value has 72 users on Happy Scenario 2, 30 users on Happy Scenario 1, 46 user with the antipattern Tower Babel and a response time of 11 seconds. Future works include the use of new antipatterns and more experiments with the use of the antipattern Tower Babel.
+In the second experiment, HybridQ found the individuals with major number of uses. The scenario with major number of users is the Fish search feature. The hybrid metaheuristic with Q-Learning (HybridQ) returned individuals with higher fitness scores.  The individual with best fitness value has 73 users on Fishs scenario, 17 users on Dogs scenario, 50 users on Cart scenario, 33 Users on register scenario  and a response time of 357 seconds. 
+
 
 
 
