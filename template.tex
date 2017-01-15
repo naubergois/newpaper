@@ -153,15 +153,17 @@ innerrightmargin=6pt,innertopmargin=6pt,innerbottommargin=6pt]{mybox}
 
 %\authorrunning{Short form of author list} % if too long for running head
 
-\institute{F. Author \at
-              first address \\
+\institute{Nauber Gois, Pedro Porfírio, André Coelho \at
+              Av. Washington Soares, 1321 - Edson Queiroz, Fortaleza - CE, 60811-905 \\
               Tel.: +123-45-678910\\
               Fax: +123-45-678910\\
-              \email{fauthor@example.com}           %  \\
+              \email{naubergois@gmail.com} \\
+              \email{porfirio@unifor.br}   \\
+              \email{acoelho@unifor.br}   \\        %  \\
 %             \emph{Present address:} of F. Author  %  if needed
-           \and
-           S. Author \at
-              second address
+%           \and
+%           S. Author \at
+%              second address
 }
 
 \date{Received: date / Accepted: date}
@@ -189,6 +191,10 @@ Stress testing determines the responsiveness, throughput, reliability, or scalab
 
 
 A stress test uses a set of workloads that consist of many types of usage scenarios and a combination of different numbers of users. A load is typically based on an operational profile. Different parts of an application should be tested under various parameters and stress conditions \cite{Babbar2011}. The correct application of a stress test should cover most parts of an application above the expected load conditions\cite{Draheim2006b}.
+
+The stress testing process in the industry still follows a non-automated and ad-hoc model where the designer or tester is responsible for running the tests analyzing the results and deciding which new tests should be performed \cite{Lewis2005}. 
+
+Typically, performance testing is accomplished using test scripts, which are programs that test designers write to automate testing. These test scripts performs actions or mimicking user actions on GUI objects of the system to feed input data. Current approaches to load testing suffer from limitations. Their cost-effectiveness is highly dependent on the particular test scenarios that are used yet there is no support for choosing those scenarios. A poor choice of scenarios could lead to underestimating system response time thereby missing an opportunity to detect a performance \cite{Grechanik2012}.
 
 Search-based testing is seen as a promising approach to verifying timing constraints \cite{Afzal2009a}. A common objective of a Stress search-based test is to find  scenarios that produce execution times that violate the specified timing constraints \cite{Sullivan}. 
 
@@ -529,12 +535,8 @@ The work uses a type of collaborative combination with sequential execution with
 
 
 
-\section{Q-Learning}
+\section{Reinforcement learning and Q-Learning}
 
-
-
-
-\subsection{Reinforcement Learning}
 
 Reinforcement learning (RL) refers to both a learning problem and a subfield of machine
 learning. As a learning problem, it refers to learning to control a system so as to maximize
@@ -628,6 +630,7 @@ In Q-Learning, the system's objective is to learn a control policy $\pi = \sum_{
 
 \section{Improving Stress Search Based Testing using Q-Learning and Hybrid Metaheuristic Approach}
 
+This section presents the Hybrid approach proposed by Gois et al.\cite{Gois2016} and the HybridQ approach.
 
 \subsection{Hybrid Approach}
 
@@ -669,13 +672,13 @@ Fig. \ref{fig:genomarepresentation} presents the solution representation and an 
 \begin{minipage}{.5\textwidth}
 \centering
 \includegraphics[width=1\textwidth]{./images/genomerepresentation1.png}
-\caption{Solution representation and crossover example}
+\caption{Solution representation and crossover example \cite{Gois2016}}
 \label{fig:genomarepresentation}
 \end{minipage}
 \begin{minipage}{.5\textwidth}
 \centering
 \includegraphics[width=1\textwidth]{./images/neighbor.png}
-\caption{Tabu search and simulated annealing neighbor strategy}
+\caption{Tabu search and simulated annealing neighbor strategy \cite{Gois2016}}
 \label{fig:neighbourtaby}
 \end{minipage}
 \end{figure}
@@ -876,6 +879,8 @@ Treasure Hunt sample \cite{Vetoio2011}}
 
 All tests in the experiment were conducted without the need of a tester, automating the process of executing and designing performance test scenarios. This experiment applied four scenarios: Two scenarios with peformance problems (Ramp and Circuitous Treasure), scenarios with no performance problems (Happy Scenario 1, Happy Scenario 2) and mixed scenarios. 
 
+\subsection{The Ramp and Circuitous Treasure Experiment}
+
 The Ramp and Circuitous Treasure scenarios implement two performance antipatterns.  Circuitous Treasure Hunt antipattern occurs when software retrieves data from a first componet, uses those results in a second component, retrieves data from the second component, and so on, until the last results are obtained (Fig. \ref{fig:circuit})  \cite{Smith2002} \cite{Smith2003}. The Ramp it is a antipattern where the processing time increases as the system is used. The Ramp can arise in several different ways. Any situation in which the amount of processing required to satisfy a request increases over time will produce the behavior. With the Ramp antipattern, the memory consumption of the application is growing over time (Fig. \ref{fig:ramp}). 
 
 
@@ -888,13 +893,13 @@ The Fig. \ref{fig:fitnessbygeneration1}  presents the fitness value obtained by 
 \begin{figure}[h]
 \begin{minipage}{.5\textwidth}
 \centering
-\includegraphics[width=0.7\textwidth]{./images/experiment1-1.png}
+\includegraphics[width=1\textwidth]{./images/experiment1-1.png}
 \caption{fitness value obtained by Search Method }
 \label{fig:fitnessbygeneration1}
 \end{minipage}
 \begin{minipage}{.5\textwidth}
 \centering
-\includegraphics[width=0.8\textwidth]{./images/experiment1-3.png}
+\includegraphics[width=1\textwidth]{./images/experiment1-3.png}
 \caption{Number of requests by Search Method}
 \label{fig:numberofrequestsbysearchmethod}
 \end{minipage}
@@ -953,8 +958,7 @@ HybridQ & 15 & 164 & 489740 & 149 & 15 & 13
 \end{tabular}
 \end{table}
 
-Fig. \ref{fig:responsetimegenerationalltests1} presents the response time by number of users of individuals with Happy Scenario 1 and Happy Scenario 2. The Figure illustrates that the individuals with best fitness value has more users and minor response time. The Fig. \ref{fig:fitnessgenerationalltests1-1} presents the response time by number of users of individuals with the Ramp and Circuitous Treasure antipatterns scenarios. The Figure illustrates the smallest number of individuals with the antipatterns when compared to individuals who use the happy scenarios.
-
+Fig. \ref{fig:responsetimegenerationalltests1} presents the response time by number of users of individuals with Happy Scenario 1 and Happy Scenario 2. The Figure illustrates that the individuals with best fitness value has more users and minor response time. 
 
 \begin{figure}[H]
 \centering
@@ -970,25 +974,62 @@ In the first experiment, We conclude that the metaheuristics converged to scenar
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.7\textwidth]{./images/mdpexperiment.png}
+\includegraphics[width=0.6\textwidth]{./images/mdpexperiment.png}
 \caption{Markov decision process of experiment with Circuitous Treasure and The Ramp antipatterns}
 \label{fig:mdpexperiment1}
 \end{figure}
 
-\subsection{JPetStore Application Experiments}
+\subsection{JPetStore Application Experiment}
 
-One experiment was conducted to test the use of the HybridQ algorithm in a real implemented application. The chosen application was the JPetStore, available at \url{https://hub.docker.com/r/pocking/jpetstore/}. The maximum tolerated response time in the test was 10 seconds.  Any  individuals who obtained a time longer than the stipulated maximum time suffered penalties.  The whole process of stress and performance tests, which took 2 days and about 1800 executions, was carried out without the need for monitoring by a test designer. The tool automatically selected the next scenarios to be run up to the limit of eleven generations previously established. The experiments use the follow application features:
+One experiment was conducted to test the use of the HybridQ algorithm in a real implemented application. The chosen application was the JPetStore, available at \url{https://hub.docker.com/r/pocking/jpetstore/}. The maximum tolerated response time in the test was 500 seconds.  Any  individuals who obtained a time longer than the stipulated maximum time suffered penalties.  The whole process of stress and performance tests, which took 2 days and about 1800 executions, was carried out without the need for monitoring by a test designer. The tool automatically selected the next scenarios to be run up to the limit of eleven generations previously established. The experiments use the follow application features:
 
 
 \begin{itemize}
 \item Enter in the Catalog: the application presents the catalog of pets.
-\item Fishs: The application shows the recorded fishs items.
+\item Fish: The application shows the recorded fish items.
 \item Register:  a new user realize the register in the system.
 \item Dogs: The application shows the recorded dogs items.
 \item Shopping Cart: the application presents the shopping cart.
 \item Add or Remove in Shopping Cart: the application adds and removes items from shopping cart.
 \end{itemize}
 
+The Table \ref{tab:isolated} presents the maximum number of users found in each scenario who obtained a time lower than the stipulated maximum time of 500 seconds.
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+\begin{table}[h!]
+\centering
+\caption{Maximum number of users of isolated test scenarios }
+\label{tab:isolated}
+\begin{tabular}{ll}
+\rowcolor[HTML]{FFCCC9} 
+\textbf{Scenario}    & \textbf{Max number of Users} \\
+Fish                 & 85                           \\
+Enter in The Catalog & 60                           \\
+Dogs                 & 75                           \\
+Cart                 & 70                           \\
+Register             & 90                          
+\end{tabular}
+\end{table}
+
+The Fig. \ref{fig:surface} presents the search space of individuals found by generation.
+
+\begin{figure}[h]
+\begin{minipage}{.5\textwidth}
+\centering
+\includegraphics[width=1\textwidth]{./images/SearchSurface.png}
+\caption{Search surface of individuals found in the experiment}
+\label{fig:surface}
+\end{minipage}
+\begin{minipage}{.5\textwidth}
+\centering
+\includegraphics[width=1\textwidth]{./images/searchsurface2.png}
+\caption{Search surface of individuals found in the experiment}
+\label{fig:surface}
+\end{minipage}
+\end{figure}
 
 The experiment used the following fitness function:
 
@@ -1001,8 +1042,7 @@ fitness=\begin{cases} n*\{3000*numberOfUsers-20* 90percentiletime-20*80percentil
 \end{equation}
 
 
-The purpose of the fitness function is to maximize the number of users and minimize the response time in the tests containing the selected functionalities. For example, it is possible double the fitness value for tests that have the fish lookup feature and user registration.
-
+The purpose of the fitness function is to maximize the number of users and minimize the response time in the tests containing a selected \textit{n} functionalities. For example, it is possible double the fitness value for tests that have the fish and user registration scenario. 
 
 This experiment tries to find the scenarios with maximal number of users and best response time tests that contains the Cart and Register features. The Fig. \ref{fig:experiment31} and \ref{fig:experiment32} show the fitness value by generation. The HybridQ obtained the best fitness values in all generations.
 
@@ -1039,17 +1079,7 @@ The Fig. \ref{fig:numberofrequestsbysearchmethod3} shows the fitness value by nu
 
 \end{figure}
 
-The Fig. \ref{fig:summaryboxplot3} presents the maximum, average, median and minimum fitness value by generation. The maximun fitness value increases at each generation. Table \ref{tab:bestindividuals3} shows 4 individuals with 233 to 398 users.  The first individual has 73 users on Fishs scenario, 17 users on Dogs scenario, 50 users on Cart scenario, 33 Users on register scenario  and a response time of 357 seconds. 
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=1\textwidth]{./images/experiment3-5.png}
-\caption{Average, median and minimum fitness value by Search Method }
-\label{fig:summaryboxplot3}
-\end{figure}
-
-
-
+Table \ref{tab:bestindividuals3} shows 4 individuals with 233 to 398 users.  The first individual has 73 users on fish scenario, 17 users on Dogs scenario, 50 users on Cart scenario, 33 Users on register scenario  and a response time of 357 seconds. 
 
 % Please add the following required packages to your document preamble:
 % \usepackage[table,xcdraw]{xcolor}
@@ -1060,7 +1090,7 @@ The Fig. \ref{fig:summaryboxplot3} presents the maximum, average, median and min
 \label{tab:bestindividuals3}
 \begin{tabular}{lllllllll}
 \rowcolor[HTML]{C0C0C0} 
-\textbf{Search Method} & \textbf{Response} & \textbf{Users} & \textbf{Gen} & \textbf{Fitness} & \textbf{Fishs} & \textbf{Dogs} & \textbf{Cart} & \textbf{Register} \\
+\textbf{Search Method} & \textbf{Response} & \textbf{Users} & \textbf{Gen} & \textbf{Fitness} & \textbf{fish} & \textbf{Dogs} & \textbf{Cart} & \textbf{Register} \\
 HybridQ                & 357               & 173            & 9            & 44773            & 73             & 17            & 50            & 33                \\
 HybridQ                & 398               & 171            & 10           & 44831            & 57             & 33            & 48            & 33                \\
 HybridQ                & 331               & 164            & 9            & 44774            & 71             & 14            & 51            & 28                \\
@@ -1068,7 +1098,7 @@ HybridQ                & 233               & 159            & 9            & 447
 \end{tabular}
 \end{table}
 
-We conclude that HybridQ found the individuals with major number of uses. The scenario with major number of users is the Fish search feature. The hybrid metaheuristic with Q-Learning (HybridQ) returned individuals with higher fitness scores.  The individual with best fitness value has 73 users on Fishs scenario, 17 users on Dogs scenario, 50 users on Cart scenario, 33 Users on register scenario  and a response time of 357 seconds. 
+We conclude that HybridQ found the individuals with major number of uses. The scenario with major number of users is the Fish search feature. The hybrid metaheuristic with Q-Learning (HybridQ) returned individuals with higher fitness scores.  The individual with best fitness value has 73 users on fish scenario, 17 users on Dogs scenario, 50 users on Cart scenario, 33 Users on register scenario  and a response time of 357 seconds. 
 
 
 \section{Conclusion}
@@ -1080,11 +1110,11 @@ The experiments ran for 17 generations. The experiments used an initial populati
 In both experiments the HybridQ algorithm returned individuals with higher fitness scores.  In the first experiment the metaheuristics converged to scenarios with an happy path, excluding the scenarios with the use of an antipatterns. The individual with best fitness value has 64 users on Happy Scenario 2, 81 users on Happy Scenario 1 and a response time of 12 seconds. None of the best individuals has one of the antipatterns used in the experiment.
 
 
-In the second experiment, HybridQ found the individuals with major number of uses. The scenario with major number of users is the Fish search feature. The hybrid metaheuristic with Q-Learning (HybridQ) returned individuals with higher fitness scores.  The individual with best fitness value has 73 users on Fishs scenario, 17 users on Dogs scenario, 50 users on Cart scenario, 33 Users on register scenario  and a response time of 357 seconds. 
+In the second experiment, HybridQ found the individuals with major number of uses. The scenario with major number of users is the Fish search feature. The hybrid metaheuristic with Q-Learning (HybridQ) returned individuals with higher fitness scores.  The individual with best fitness value has 73 users on fish scenario, 17 users on Dogs scenario, 50 users on Cart scenario, 33 Users on register scenario  and a response time of 357 seconds. The use of HybridQ allowed the increase of more than 83 users when compared to the tests of isolated scenarios where a maximum of 90 users was achieved.
 
 
-
-
+There is a range of future improvements in the proposed approach. Also as a typical search strategy, it is difficult to ensure that the execution times generated in the experiments represents global optimum. More experimentation is also required to determine the most appropriate and robust parameters. Lastly, there is a need for an adequate termination criterion to stop the search process.
+Among the future works of the research, the use of new combinatorial optimization algorithms such as multi-objective heuristics is one that we can highlight.
 
 
 %\begin{acknowledgements}

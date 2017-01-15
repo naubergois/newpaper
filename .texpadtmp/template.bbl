@@ -28,6 +28,17 @@ V.~Garousi, IEEE Transactions on Software Engineering \textbf{36}(6), 778
 \bibitem{Babbar2011}
 C.~Babbar, N.~Bajpai, D.~Sarmah, International Journal of Technology  (2011)
 
+\bibitem{Lewis2005}
+W.E. Lewis, D.~Dobbs, G.~Veerapillai, \emph{{Software testing and continuous
+  quality improvement}} (2005).
+\newblock
+  \urlprefix\url{http://books.google.com/books?id=fgaBDd0TfT8C{\&}pgis=1}
+
+\bibitem{Grechanik2012}
+M.~Grechanik, C.~Fu, Q.~Xie, 2012 34th International Conference on Software
+  Engineering (ICSE) pp. 156--166 (2012).
+\newblock \doi{10.1109/ICSE.2012.6227197}
+
 \bibitem{Afzal2009a}
 W.~Afzal, R.~Torkar, R.~Feldt, Information and Software Technology
   \textbf{51}(6), 957 (2009).
