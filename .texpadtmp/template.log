@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.13)  14 JAN 2017 22:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.13)  22 JAN 2017 14:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1699,7 +1699,7 @@ Overfull \hbox (1.52pt too wide) in paragraph at lines 225--237
  []
 
 
-Underfull \vbox (badness 1297) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3 <./images/evolutionary.png> <./images/metaheuristics.png>] [4]
 Underfull \hbox (badness 10000) in paragraph at lines 294--294
@@ -2153,7 +2153,7 @@ r/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive/201
 5/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
 Output written on /Users/naubergois/Downloads/global/.texpadtmp/template.pdf (3
-1 pages, 2004812 bytes).
+1 pages, 2004869 bytes).
 PDF statistics:
  225 PDF objects out of 1000 (max. 8388607)
  108 compressed objects within 2 object streams
