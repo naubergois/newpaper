@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.13)  22 JAN 2017 14:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.13)  21 FEB 2017 13:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1676,10 +1676,8 @@ LaTeX Font Info:    Try loading font information for U+txsyc on input line 173.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
-) [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \vbox (badness 3417) has occurred while \output is active []
+) [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
 
- [2]
 <./images/evolutionary.png, id=22, 470.75874pt x 331.2375pt>
 File: ./images/evolutionary.png Graphic file (type png)
 
@@ -1764,24 +1762,21 @@ File: ./images/dipenta.png Graphic file (type png)
 <use ./images/dipenta.png>
 Package pdftex.def Info: ./images/dipenta.png used on input line 360.
 (pdftex.def)             Requested size: 202.80206pt x 190.43817pt.
- [8 <./images/dipenta.png>]
-<./images/neighborhood.png, id=48, 245.91875pt x 163.61125pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8 <./images/dipenta.png>] <./images/neighborhood.png, id=48, 245.91875pt x 16
+3.61125pt>
 File: ./images/neighborhood.png Graphic file (type png)
 
 <use ./images/neighborhood.png>
 Package pdftex.def Info: ./images/neighborhood.png used on input line 403.
 (pdftex.def)             Requested size: 202.80206pt x 134.931pt.
-
+ [9]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9]
-Underfull \vbox (badness 6364) has occurred while \output is active []
-
- [10 <./images/neighborhood.png>]
-Underfull \vbox (badness 1983) has occurred while \output is active []
-
- [11]
+[10 <./images/neighborhood.png>] [11]
 <./images/metaheuristc2.png, id=61, 509.87338pt x 274.94847pt>
 File: ./images/metaheuristc2.png Graphic file (type png)
 
@@ -1820,10 +1815,7 @@ Overfull \hbox (1.52pt too wide) in paragraph at lines 587--599
 []$[]$ $[]$ 
  []
 
-[14]
-Underfull \vbox (badness 1406) has occurred while \output is active []
-
- [15 <./images/mdp1.png> <./images/qalgo.png>]
+[14] [15 <./images/mdp1.png> <./images/qalgo.png>]
 <./images/independ.png, id=83, 354.23682pt x 268.49918pt>
 File: ./images/independ.png Graphic file (type png)
 
@@ -1912,6 +1904,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19 <./images/qhybrid.png> <./images/mdp3.png> <./images/q-neighborservice.png
 >]
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 795.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/t1txtt.fd
+File: t1txtt.fd 2000/12/15 v3.1
+)
 <./images/iadapter1.png, id=110, 572.1375pt x 676.5275pt>
 File: ./images/iadapter1.png Graphic file (type png)
 
@@ -1941,14 +1939,14 @@ Package pdftex.def Info: ./images/tela1iadapter.png used on input line 826.
 (pdftex.def)             Requested size: 270.40103pt x 182.80212pt.
  [20] [21 <./images/iadapter1.png> <./images/lifecycle2.png> <./images/tela1iad
 apter.png>]
-<./images/circuit.png, id=123, 527.9725pt x 394.47375pt>
+<./images/circuit.png, id=124, 527.9725pt x 394.47375pt>
 File: ./images/circuit.png Graphic file (type png)
 
 <use ./images/circuit.png>
 Package pdftex.def Info: ./images/circuit.png used on input line 865.
 (pdftex.def)             Requested size: 169.0pt x 126.26427pt.
 
-<./images/ramp.png, id=124, 279.0425pt x 418.56375pt>
+<./images/ramp.png, id=125, 279.0425pt x 418.56375pt>
 File: ./images/ramp.png Graphic file (type png)
  <use ./images/ramp.png>
 Package pdftex.def Info: ./images/ramp.png used on input line 872.
@@ -1961,14 +1959,14 @@ Overfull \hbox (1.52pt too wide) in paragraph at lines 863--876
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[22] <./images/experiment1-1.png, id=128, 752.8125pt x 486.81876pt>
+[22] <./images/experiment1-1.png, id=129, 752.8125pt x 486.81876pt>
 File: ./images/experiment1-1.png Graphic file (type png)
 
 <use ./images/experiment1-1.png>
 Package pdftex.def Info: ./images/experiment1-1.png used on input line 896.
 (pdftex.def)             Requested size: 169.0pt x 109.28436pt.
 
-<./images/experiment1-3.png, id=129, 752.8125pt x 486.81876pt>
+<./images/experiment1-3.png, id=130, 752.8125pt x 486.81876pt>
 File: ./images/experiment1-3.png Graphic file (type png)
 
 <use ./images/experiment1-3.png>
@@ -1979,7 +1977,7 @@ Overfull \hbox (1.52pt too wide) in paragraph at lines 894--906
 []$[]$ $[]$ 
  []
 
-<./images/experiment1-4.png, id=130, 582.175pt x 427.5975pt>
+<./images/experiment1-4.png, id=131, 582.175pt x 427.5975pt>
 File: ./images/experiment1-4.png Graphic file (type png)
 
 <use ./images/experiment1-4.png>
@@ -1989,7 +1987,7 @@ Package pdftex.def Info: ./images/experiment1-4.png used on input line 917.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23 <./images/circuit.png> <./images/ramp.png> <./images/experiment1-1.png> <.
-/images/experiment1-3.png>] <./images/experiment1-5.png, id=138, 1204.5pt x 573
+/images/experiment1-3.png>] <./images/experiment1-5.png, id=139, 1204.5pt x 573
 .14125pt>
 File: ./images/experiment1-5.png Graphic file (type png)
 
@@ -1997,7 +1995,7 @@ File: ./images/experiment1-5.png Graphic file (type png)
 Package pdftex.def Info: ./images/experiment1-5.png used on input line 928.
 (pdftex.def)             Requested size: 169.0pt x 80.41412pt.
 
-<./images/experiment1-6.png, id=139, 582.175pt x 427.5975pt>
+<./images/experiment1-6.png, id=140, 582.175pt x 427.5975pt>
 File: ./images/experiment1-6.png Graphic file (type png)
 
 <use ./images/experiment1-6.png>
@@ -2011,7 +2009,7 @@ Overfull \hbox (1.52pt too wide) in paragraph at lines 926--938
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images/experiment1-7.png, id=140, 1204.5pt x 573.14125pt>
+<./images/experiment1-7.png, id=141, 1204.5pt x 573.14125pt>
 File: ./images/experiment1-7.png Graphic file (type png)
 
 <use ./images/experiment1-7.png>
@@ -2019,7 +2017,7 @@ Package pdftex.def Info: ./images/experiment1-7.png used on input line 965.
 (pdftex.def)             Requested size: 338.0pt x 160.82826pt.
  [24 <./images/experiment1-4.png> <./images/experiment1-5.png> <./images/experi
 ment1-6.png>]
-<./images/mdpexperiment.png, id=147, 554.07pt x 852.18375pt>
+<./images/mdpexperiment.png, id=148, 554.07pt x 852.18375pt>
 File: ./images/mdpexperiment.png Graphic file (type png)
 
 <use ./images/mdpexperiment.png>
@@ -2029,11 +2027,7 @@ Package pdftex.def Info: ./images/mdpexperiment.png used on input line 977.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 984.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/t1txtt.fd
-File: t1txtt.fd 2000/12/15 v3.1
-) [25 <./images/experiment1-7.png>]
+[25 <./images/experiment1-7.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2065,7 +2059,7 @@ File: t1txss.fd 2000/12/15 v3.1
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 9.49997pt on input line 1039.
 
-Overfull \hbox (44.17499pt too wide) detected at line 1042
+Overfull \hbox (34.60785pt too wide) detected at line 1042
 [] []
  []
 
@@ -2118,19 +2112,7 @@ Underfull \hbox (badness 1796) in paragraph at lines 122--124
  []
 
 [30]
-Underfull \hbox (badness 10000) in paragraph at lines 212--216
-\T1/txtt/m/n/8 https : / / books . google . com / books ? id = CAFR6IBF4xYC{\ &
- }pgis = 1$ \ backslash$nhttp :
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 212--216
-\T1/txtt/m/n/8 / / incompleteideas . net / sutton / book / the-[]book . html$ \
- backslash$nhttps : / / www .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 242--246
+Underfull \hbox (badness 10000) in paragraph at lines 240--244
 \T1/txtt/m/n/8 http : / / citeseerx . ist . psu . edu / viewdoc / download ? do
 i = 10 . 1 . 1 . 123 . 4517{\ & }rep =
  []
@@ -2144,7 +2126,7 @@ See the caption package documentation for explanation.
 Here is how much of TeX's memory you used:
  26535 strings out of 493089
  494996 string characters out of 6134842
- 810193 words of memory out of 5000000
+ 809193 words of memory out of 5000000
  29379 multiletter control sequences out of 15000+600000
  72350 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2162,7 +2144,7 @@ r/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive/201
 5/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
 Output written on /Users/naubergois/Downloads/global/.texpadtmp/template.pdf (3
-1 pages, 2004794 bytes).
+1 pages, 2003607 bytes).
 PDF statistics:
  225 PDF objects out of 1000 (max. 8388607)
  108 compressed objects within 2 object streams

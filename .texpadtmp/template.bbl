@@ -56,16 +56,16 @@ M.~Harman, P.~McMinn, IEEE Transactions on Software Engineering \textbf{36}(2),
   226 (2010).
 \newblock \doi{10.1109/TSE.2009.71}
 
-\bibitem{Alba2008}
-E.~Alba, F.~Chicano, Computers and Operations Research \textbf{35}(10), 3161
-  (2008).
-\newblock \doi{10.1016/j.cor.2007.01.016}
-
 \bibitem{Baars2011}
 A.I. Baars, K.~Lakhotia, T.E.J. Vos, J.~Wegener, Federated Conference on
   Computer Science and Information Systems (FedCSIS 2011) pp. 917--923 (2011).
 \newblock
   \urlprefix\url{http://ieeexplore.ieee.org/stamp/stamp.jsp?tp={\&}arnumber=6078178}
+
+\bibitem{Alba2008}
+E.~Alba, F.~Chicano, Computers and Operations Research \textbf{35}(10), 3161
+  (2008).
+\newblock \doi{10.1016/j.cor.2007.01.016}
 
 \bibitem{McMinn2004}
 P.~McMinn, R.~Court, S.~Testing, P.~Street, Software testing, Verification and
@@ -210,9 +210,7 @@ J.~Puchinger, R.~Raidl, Artificial Intelligence and Knowledge Engineering
 
 \bibitem{Sutton2012}
 R.S. Sutton, A.G. Barto, Learning \textbf{3}(9), 322 (2012).
-\newblock \doi{10.1109/MED.2013.6608833}.
-\newblock
-  \urlprefix\url{https://books.google.com/books?id=CAFR6IBF4xYC{\&}pgis=1$\backslash$nhttp://incompleteideas.net/sutton/book/the-book.html$\backslash$nhttps://www.dropbox.com/s/f4tnuhipchpkgoj/book2012.pdf}
+\newblock \doi{10.1109/MED.2013.6608833}
 
 \bibitem{Szepesvari2010}
 C.~Szepesv{\'{a}}ri, G.~Bartok, Synthesis Lectures on Artificial Intelligence

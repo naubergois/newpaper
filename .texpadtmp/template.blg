@@ -28,16 +28,16 @@ Warning--missing publisher in Talbi2012
 Warning--there's a number but no volume in Greenwald2003
 You've used 52 entries,
             2812 wiz_defined-function locations,
-            941 strings with 14729 characters,
-and the built_in function-call counts, 21917 in all, are:
-= -- 2054
+            940 strings with 14537 characters,
+and the built_in function-call counts, 21906 in all, are:
+= -- 2052
 > -- 417
 < -- 19
 + -- 232
 - -- 121
-* -- 1033
-:= -- 2134
-add.period$ -- 37
+* -- 1031
+:= -- 2132
+add.period$ -- 36
 call.type$ -- 52
 change.case$ -- 5
 chr.to.int$ -- 6
@@ -45,13 +45,13 @@ cite$ -- 71
 duplicate$ -- 2625
 empty$ -- 1933
 format.name$ -- 156
-if$ -- 4877
+if$ -- 4875
 int.to.chr$ -- 0
 int.to.str$ -- 52
 missing$ -- 452
-newline$ -- 201
+newline$ -- 200
 num.names$ -- 52
-pop$ -- 1065
+pop$ -- 1066
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
@@ -66,5 +66,5 @@ type$ -- 0
 warning$ -- 19
 while$ -- 116
 width$ -- 54
-write$ -- 477
+write$ -- 475
 (There was 1 error message)
